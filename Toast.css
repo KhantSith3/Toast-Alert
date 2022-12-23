@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+}
+
+
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    align-items: flex-start;
+    margin-top: 5px;
+   
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+
+}
+.Mery{
+    color: royalblue;
+    text-align: center;
+    padding: 10px;
+    width: 250px;
+    background-color: whitesmoke;
+    position: relative;
+    transition:bottom .7s ease-in-out;
+
+}
+.darkmood{
+    background-color: black;
+}
