@@ -6,7 +6,7 @@ ButtonTag.addEventListener("click", () => {
   ParentTag.innerHTML = "";
   containerTag.classList.add("darkmood");
   const DivTag = document.createElement("div");
-  DivTag.classList.add("Mery");
+  DivTag.classList.add("mery");
   ParentTag.append(DivTag);
   DivTag.append(`You are turning night Mood`);
   DivTag.style.bottom = `-${DivTag.offsetHeight}px`;
